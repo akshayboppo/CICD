@@ -2,7 +2,7 @@ version: 0.0
 os: linux 
 files:
   - source: /
-    destination: /home/stage-website/stage-website/
+    destination: /var/www/CICD/
 hooks:
   AfterInstall:
     - location: scripts/after_install.sh
